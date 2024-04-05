@@ -62,3 +62,9 @@ resource "aws_iam_group_membership" "twice_group_membership" {
 # 2. Ran 'terraform apply'
 
 # Finally, run terraform destroy to confirm you can delete all resources: created by Terraform and manually created.
+
+/**
+
+
+
+**/
