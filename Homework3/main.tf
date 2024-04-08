@@ -34,8 +34,8 @@ resource "aws_instance" "web" {
   tags = {
     Name = "web-${count.index}"
   }
+}
 
 output ec2 {
   value = aws_instance.web[*].public_ip
-}
 }
