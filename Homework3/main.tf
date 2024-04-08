@@ -32,6 +32,6 @@ resource "aws_instance" "web" {
   count         = 3
 
   tags = {
-    Name = "ec2-${count.index}"
+    Name = "web-${count.index}"
   }
 }
