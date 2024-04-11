@@ -10,6 +10,11 @@ If you decide to create a set of .tfvars files with different names representing
 ```
 terraform apply -var-file {some_file.tfvars}
 ```
+In such a file, you need to create variables and assign them values, for example:
+
+```
+region="us-east-1"
+```
 
 ## Supporting Documentation
 
