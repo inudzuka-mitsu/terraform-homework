@@ -19,9 +19,9 @@ resource "aws_route_table" "public-rt" {
   vpc_id = aws_vpc.kaizen_vpc.id
 
   route {
-    cidr_block = "0.0.0.0/0"
-    gateway_id = aws_internet_gateway.gw.id
-  }
+   cidr_block = "0.0.0.0/0"
+   gateway_id = aws_internet_gateway.homework5_igw.id
+  }
 
   tags = {
     Name = var.route_table_names[0]
